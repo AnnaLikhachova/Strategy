@@ -1,0 +1,166 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#gridmain{
+-fx-background-image: url("/Resources/screen.jpeg");
+		
+}
+#gridHero{
+-fx-background-image: url("/Resources/background2.jpg");
+		
+}
+#gridHeroList{
+-fx-background-image: url("/Resources/background.jpg");		
+}
+
+#gridplay{
+-fx-background-image: url("/Resources/Playb1.jpg");		
+}
+
+#gridRules{
+-fx-background-image: url("/Resources/old.jpg");		
+}
+
+#gridScore{
+-fx-background-image: url("/Resources/Score.jpg");		
+}
+
+button{
+	 -fx-background-color: transparent;
+
+}
+
+#buttons{
+	-fx-background-image: url("/Resources/papier.jpg");
+	-fx-font: italic bold 30px Trattatello, fantasy;
+	-fx-text-fill: black;
+	-fx-pref-height:100;
+	-fx-pref-width:250;
+}
+
+#buttonWar{
+    -fx-background-color: transparent;
+	-fx-font: italic bold 30px Trattatello, fantasy;
+	-fx-text-fill: red;
+	-fx-pref-height:100;
+	-fx-pref-width:250;
+}
+
+#Mainbuttons{
+	-fx-background-image: url("/Resources/golden.jpg");
+	-fx-font: italic bold 30px Trattatello, fantasy;
+	-fx-text-fill: black;	
+	-fx-effect: dropshadow( one-pass-box , black , 8.0 , 0.0 , 2.0 , 0.0 );
+	-fx-pref-height:100;
+	-fx-pref-width:250;
+}
+
+#buttonsPlay{
+	-fx-background-image: url("/Resources/tekstur.jpg");
+	-fx-font: italic bold 30px Trattatello, fantasy;
+	-fx-text-fill: gold;
+	-fx-effect: dropshadow( one-pass-box , black , 8.0 , 0.0 , 2.0 , 0.0 );
+	-fx-pref-height:180;
+	-fx-pref-width:200;
+}
+
+#buttonsW{
+	-fx-background-color: transparent;
+	-fx-font: italic bold 30px Trattatello, fantasy;
+	-fx-text-fill: gold;
+	-fx-effect: dropshadow( one-pass-box , black , 8.0 , 0.0 , 2.0 , 0.0 );
+	-fx-pref-height:200;
+	-fx-pref-width:200;
+}
+
+#buttonsSc{
+    -fx-background-color: transparent;
+	-fx-font: italic bold 30px Trattatello, fantasy;
+}
+
+#buttonWar{
+	-fx-background-color: transparent;
+	-fx-font: italic bold 30px Trattatello, fantasy;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow( one-pass-box , black , 8.0 , 0.0 , 2.0 , 0.0 );
+	-fx-pref-height:100;
+	-fx-pref-width:300;
+}
+
+#name{
+	
+	-fx-font: italic bold 25px Trattatello, fantasy;
+	-fx-text-fill: black;
+	-fx-text-alignment:left;
+	-fx-content-display:left ;
+}
+
+#numbers{
+	
+	-fx-font: italic bold 30px Trattatello, fantasy;
+	-fx-text-fill: gold;
+	-fx-text-alignment:center;
+	-fx-padding: 50 ;
+	-fx-content-display:center ;
+	-fx-effect: dropshadow( one-pass-box , black , 8.0 , 0.0 , 2.0 , 0.0 );
+}
+
+#labels{
+	-fx-font: italic bold 20px Trattatello, fantasy;
+	-fx-text-fill: gold;
+	-fx-text-alignment:left;
+	-fx-content-display:left;
+	-fx-background: brown;
+	-fx-pref-height:50;
+	-fx-pref-width:400;
+	-fx-effect: dropshadow( one-pass-box , black , 8.0 , 0.0 , 2.0 , 0.0 );	
+}
+
+#labelsW{
+	-fx-font: italic bold 20px Trattatello, fantasy;
+	-fx-text-fill: white;
+	-fx-text-alignment:left;
+	-fx-content-display:left;
+	-fx-background: brown;
+	-fx-pref-height:50;
+	-fx-pref-width:500;
+	-fx-effect: dropshadow( one-pass-box , black , 8.0 , 0.0 , 2.0 , 0.0 );	
+}
+
+#labelK{
+	-fx-font: italic bold 20px Trattatello, fantasy;
+	-fx-text-fill: gold;
+	-fx-text-alignment:left;
+	-fx-content-display:left;
+	-fx-background: brown;
+	-fx-pref-height:50;
+	-fx-pref-width:200;	
+}
+
+#labelStory{
+	-fx-font: italic bold 18px Trattatello, fantasy;
+	-fx-text-fill: black;
+	
+}
+
+#labelScr{
+	-fx-font: italic bold 25px Trattatello, fantasy;
+	-fx-text-fill: black;
+}
+
+#labelFinal{
+	-fx-font: italic bold 50px Trattatello, fantasy;
+	-fx-text-fill: white;
+	-fx-text-alignment:left;
+	-fx-background: transparent; 
+	-fx-padding: 30px ;
+	-fx-pref-height:100;
+	-fx-pref-width:500;	
+	
+}
+
+#labelsHero{
+	-fx-padding: 1px ;
+	-fx-background: gold;
+	-fx-effect: dropshadow( one-pass-box , black , 8.0 , 0.0 , 2.0 , 0.0 );	
+	
+}
+
