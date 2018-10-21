@@ -9,7 +9,6 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Locale;
-
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.DoubleProperty;
 import javafx.scene.media.Media;
@@ -73,22 +72,7 @@ public class Reader {
 		 MediaPlayer mp = new MediaPlayer(m);
 		 mp.setAutoPlay(true);
 		 MediaView mv = new MediaView(mp);
-		//final DoubleProperty width = mv.fitWidthProperty();
-		//final DoubleProperty height = mv.fitHeightProperty();
-		//width.bind(Bindings.selectDouble(mv.sceneProperty(), "width"));
-		//height.bind(Bindings.selectDouble(mv.sceneProperty(), "height"));
-		//mv.setPreserveRatio(true);
-		//mp.play();
-		
-		//MediaPlayer mediaPlayer = new MediaPlayer(media);
-	    //mediaPlayer.setAutoPlay(true);
-
-	     // Create the view and add it to the Scene.
-	     //MediaView mediaView = new MediaView(mediaPlayer);
-	    
-		
-		return mv;
+		 return mv;
 	}
-	
-	
+		
 }
