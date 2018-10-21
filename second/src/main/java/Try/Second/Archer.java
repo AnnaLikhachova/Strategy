@@ -1,10 +1,10 @@
 package Try.Second;
 
 public class Archer extends Warrior {
-	String name = "Archer";
-	int strength=2;
-	int agility=2;
-	int inteligence=2;
+	private String name = "Archer";
+	private int strength=2;
+	private int agility=2;
+	private int inteligence=2;
 	Archer(){
 		warriorStrength();
 		
@@ -12,7 +12,7 @@ public class Archer extends Warrior {
 
 @Override
 	public int warriorStrength() {
-		int s = 1+(strength + agility + inteligence);
-		return s;
+		int warriorStrength = 1+(strength + agility + inteligence);
+		return warriorStrength;
 	}
 }
