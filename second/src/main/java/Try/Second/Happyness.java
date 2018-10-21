@@ -5,6 +5,7 @@ import java.io.File;
 import javafx.scene.image.Image;
 
 public class Happyness {
+	
 	Play scr;
 
 	Happyness(Play scr) {
@@ -26,12 +27,12 @@ public class Happyness {
 	
 
 	public Image statusHappy(int happy) {
-		Image i = new Image(getClass().getResourceAsStream("/Resources/veryhappy.png"));
+		Image image = new Image(getClass().getResourceAsStream("/Resources/veryhappy.png"));
 		if (happy < 70) {
-			i = new Image(getClass().getResourceAsStream("/Resources/nothappy.png"));
+			image = new Image(getClass().getResourceAsStream("/Resources/nothappy.png"));
 		} else if (happy < 40) {
-			i = new Image(getClass().getResourceAsStream("/Resources/angryhappy.png"));
+			image = new Image(getClass().getResourceAsStream("/Resources/angryhappy.png"));
 		}
-		return i;
+		return image;
 	}
 }
