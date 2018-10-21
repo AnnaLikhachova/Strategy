@@ -1,19 +1,18 @@
 package Try.Second;
 
 public class Warrior {
-	Play sc;
-	String name;
-	int strength;
-	int agility;
-	int inteligence;
-	Play scr;	
+
+	private int strength;
+	private int agility;
+	private int inteligence;
+	
 	Warrior() {
 		warriorStrength();
 	}
 
 	public int warriorStrength() {
-		int s = strength + agility + inteligence;
-		return s;
+		int warriorStrength = strength + agility + inteligence;
+		return warriorStrength;
 	}
 
 	public String fight(int playerScore, int enemyScore) {
@@ -24,6 +23,4 @@ public class Warrior {
 		} else
 			return "YOU LOST";
 	}
-
-
 }
